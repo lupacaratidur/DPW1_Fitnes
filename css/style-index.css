@@ -1,0 +1,30 @@
+body{
+    background-color: black;
+    font-family: monospace;
+}
+header{
+    float: left;
+}
+nav{
+    float: right;
+}
+nav li{
+    display:inline-block;
+    font-size: 1,25em;
+    margin-top: 40px;
+}
+nav li a{
+    text-decoration: none;
+/* border: 1px solid black; */
+    padding: 20px;
+    color: white;
+}
+#hero img{
+    width: 100%;
+    display: block;
+    height: 400px;
+}
+.copyright{
+    text-align: center;
+    color: white;
+}
