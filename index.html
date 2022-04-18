@@ -7,25 +7,27 @@
     <title>Home - Spartan Fitnes</title>
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
     <link rel="stylesheet" href="css/style-index.css"
-
 </head>
-<body>
-    <header>
-        <!-- Logo web -->
-        <img width="150px", weight="150px" src="images/logo.png" alt="">
-    </header>
 
-    <nav>
+<body>
+
+    <nav class="navbar">
+        <img class="logo" src="images/logo.png" alt="" width="100px">
+        <input type="checkbox" id="toggler">
+        <label for="toggler"><i class="ri-menu-line"></i></label>
         <!-- Menu navigasi : Home, Classes, About-us, Contct-us, Nutrition -->
         <!-- ul menggunakan titik(mantap) -->
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="classes.html">Classes</a></li>
-            <li><a href="about-us.html">About us</a></li>
-            <li><a href="nutrition.html">Nutrition</a></li>
-            <li><a href="contact-us.html">Contact us</a></li>
-        </ul>
-
+        <div class="menu">
+            <ul class="list">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="classes.html">Classes</a></li>
+                <li><a href="about-us.html">About us</a></li>
+                <li><a href="nutrition.html">Nutrition</a></li>
+                <li><a href="contact-us.html">Contact us</a></li>
+            </ul>
+        </div>
+    </nav>
+       
         <!-- ol menggunakan angka(tidak disarankan) -->
         <!-- <ol>
             <li>Home</li>
@@ -35,7 +37,7 @@
             <li>Contact us</li>
         </ol> -->
 
-    </nav>
+
 
     <main>
         <!-- Hero image -->
