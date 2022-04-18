@@ -1,54 +1,54 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/style-contactus.css"/>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>Contact Us - Spartan Fitnes</title>
-     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
-   </head>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Contact Us - Spartan Fitnes</title>
+    <link rel="stylesheet" href="css/style-contactus.css">
+</head>
+
+<nav class="navbar">
+    <img class="logo" src="images/logo.png" alt="" width="100px">
+
+    <div class="menu">
+        <ul class="list">
+            <li><a href="index.html">Home </a></li>
+            <li><a href="classes.html">Classes</a></li>
+            <li><a href="about-us.html">About us</a></li>
+            <li><a href="nutrition.html">Nutrition</a></li>
+            <li><a href="contact-us.html">Contact us</a></li>
+        </ul>
+    </div>
+</nav>
+
 <body>
-  <div class="container">
-    <div class="content">
-      <div class="left-side">
-        <div class="address details">
-          <i class="fas fa-map-marker-alt"></i>
-          <div class="topic">Alamat</div>
-          <div class="text-one">Cilacap, Majenang</div>
-          <div class="text-two">Sokaraja</div>
-        </div>
-        <div class="phone details">
-          <i class="fas fa-phone-alt"></i>
-          <div class="topic">Telepon</div>
-          <div class="text-one">+6283877099617</div>
-          <div class="text-two">+6282137202134</div>
-        </div>
-        <div class="email details">
-          <i class="fas fa-envelope"></i>
-          <div class="topic">Email</div>
-          <div class="text-one">king.wahrul@gmail.com</div>
-          <div class="text-two">20104100@ittelkom-pwt.ac.id</div>
-        </div>
-      </div>
-      <div class="right-side">
-        <div class="topic-text">Send us a message</div>
-        <p>If you have any work from me or any types of quries related to my tutorial, you can send me message from here. It's my pleasure to help you.</p>
-      <form action="#">
-        <div class="input-box">
-          <input type="text" placeholder="Enter your name">
-        </div>
-        <div class="input-box">
-          <input type="text" placeholder="Enter your email">
-        </div>
-        <div class="input-box message-box">
-          
-        </div>
-        <div class="button">
-          <input type="button" value="Send Now" >
-        </div>
-      </form>
-    </div>
-    </div>
-  </div>
-</body>
+                <div class="container">
+                    <div class="contact-child child2">
+                        <div class="inside-contact">
+                            <h2>Contact Us</h2>
+                            <h3>
+                               <span id="confirm">
+                            </h3>
+
+                            <h3 class="Name">Name</h3>
+                            <input id="txt_name" type="text" Required="required">
+
+                            <h3 class="Email">Email </h3>
+                            <input id="txt_email" type="text" Required="required">
+
+                            <h3 class="Phone">Phone </h3>
+                            <input id="txt_phone" type="text" Required="required">
+
+                            <h3 class="Subject">Subject </h3>
+                            <input id="txt_subject" type="text" Required="required">
+
+                            <h3 class="Message">Message </h3>
+                            <textarea id="txt_message" rows="4" cols="20" Required="required" ></textarea>
+                            
+                            <input type="submit" id="btn_send" value="SEND">
+                        </div>
+                    </div>
+                </div>
+	</body>
 </html>
